@@ -7,11 +7,13 @@
 
 var z = 2;
 var senetence = "";
-if(z==2) {
-    console.log(The number is the string 2
-    }
-else if (z=="2") {
-    console.log(The number is something else);
-else (z==2) { console.log(The number is something else)}
+if (z === "2") {
+    sentence = "The number is the string 2";
+}
+else if (z === 2) {
+    sentence = "The number is the integer 2";
+}
+else { sentence = "The number is something else"; }
+
 console.log(sentence);
-//The number is the string 2
+//The number is the integer 2
